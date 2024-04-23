@@ -1,2 +1,37 @@
 images 
 https://www.ghibli.jp/info/013344/ 
+site not affiliated with Studio Ghibli in any way. 
+Solely for personal use. 
+
+banner video
+https://youtu.be/_QCQxHcQ4T8?si=Q77v6If30aA7GoC0
+
+image slider tutorial 
+https://www.youtube.com/watch?v=OTjmnF27ADk 
+https://codepen.io/CreativeCoder111/pen/XWyjBab 
+
+code references, java, eventlistener, etc.
+Fetch Code
+https://www.w3schools.com/js/js_api_fetch.asp
+
+AJAX Code
+https://www.w3schools.com/js/js_ajax_intro.asp
+
+JSON Syntax
+https://www.w3schools.com/js/js_json_syntax.asp
+
+JS Error Reference 
+https://www.w3schools.com/jsref/jsref_obj_error.asp
+
+Web API Console 
+https://www.w3schools.com/jsref/api_console.asp
+
+DOM Token List
+https://www.w3schools.com/jsref/dom_obj_html_domtokenlist.asp
+
+ghibli API
+https://ghibliapi.vercel.app/ 
+
+code taken from previous assignment repo's
+https://github.com/ziovo08/Assignment_2_cprg_218/blob/master/styles/styles.css
+tetsttststts
