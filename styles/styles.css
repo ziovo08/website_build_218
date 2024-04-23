@@ -227,6 +227,99 @@ body, html {
     color: #fff;
 }
 
+/* FOOTER */
+.ghibli-footer {
+    background-color: #f4f1ec; /* Soft cream background */
+    color: #4a4a4a; /* Soft text color for readability */
+    text-align: center; /* Centers the text */
+    align-items: center; /* Vertically aligns items in the flex container */
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    height: auto; /* Flexible height based on content */
+    margin-top: 200px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around; /* Distributes space between sections */
+    flex-wrap: wrap; /* Allows items to wrap on smaller screens */
+    width: 100%; /* Full width */
+}
+
+.footer-section {
+    margin: 10px; /* Adds spacing around sections */
+    min-width: 150px; /* Minimum width for each section */
+}
+
+.footer-bottom {
+    margin-top: 20px; /* Adds space between sections and copyright */
+    font-size: 0.8rem; /* Smaller text for the copyright message */
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column; /* Stacks the sections vertically on small screens */
+        align-items: center; /* Aligns items to the center */
+    }
+
+    .footer-section h3 {
+        margin-top: 10px; /* Adds more space above headers in mobile view */
+    }
+}
+
+/* API v1*/
+/* #ghibli-movies {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+}
+
+#movies-list {
+    list-style: none;
+    padding: 0;
+}
+
+#movies-list li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    margin-top: 5px;
+}
+ */
+ 
+
+
+
+/* updateee footer? */
+/* API v2 */
+#random-ghibli-film {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#random-ghibli-film button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#random-ghibli-film button:hover {
+    background-color: #45a049;
+}
+
+#film-display p {
+    margin: 15px 0;
+}
 
 
 /* RESPONSIVE BREAKPOINTS */
