@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Film Details</title>
+</head>
+<body>
+    <h1>Film Details</h1>
+    <div id="film-detail"></div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const params = new URLSearchParams(window.location.search);
+            const filmId = params.get('id');
+            if (filmId) {
+                fetch(`https://ghibliapi.vercel.app/films/${filmId}`)
+                    .then(response => response.json())
+                    .then(film => {
+                        const detailDiv = document.getElementById('film-detail');
+                        detailDiv.innerHTML = `<h2>${film.title} (${film.release_date})</h2>
+                                                <p>Directed by: ${film.director}</p>
+                                                <p>${film.description}</p>`;
+                    })
+                    .catch(error => console.error('Error fetching film details:', error));
+            }
+        });
+    </script>
+</body>
+</html>
